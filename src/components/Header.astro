@@ -1,0 +1,21 @@
+---
+import Container from "@components/Container.astro";
+import Link from "@components/Link.astro";
+import { SITE } from "@consts";
+---
+
+<header style="background-color: inherit;">
+  <Container  class=" text-black dark:text-white font-mono bg-white">
+    <div class="flex flex-wrap gap-y-2 justify-between">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+      <Link href="/" underline={false}>
+        <div class="py-7">
+          {SITE.NAME}
+        </div>
+      </Link>
+
+    </div>
+  </Container>
+</header>

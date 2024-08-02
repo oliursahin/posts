@@ -1,0 +1,39 @@
+---
+import type { HTMLTag, Polymorphic } from "astro/types";
+import type { CollectionEntry } from "astro:content";
+import FormattedDate from "../layouts/FormattedDate.astro";
+
+
+const { entry } = Astro.props;
+
+type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
+  entry: CollectionEntry<"blog">
+	withDesc?: boolean
+}
+
+const { as: Tag = "div", withDesc = false } = Astro.props;
+const postDate = entry.data.date;
+
+---
+
+<li class='flex flex-col gap-2 sm:flex-row sm:gap-x-4 [&_q]:basis-full decoration-black/15  hover:decoration-black/25  text-current hover:text-black  transition-colors duration-300 ease-in-out  border-t border-b border-neutral-100 py-2'>
+  <FormattedDate  class='text-neutral-400 font-medium' date={postDate} />
+
+  <Tag >
+    {entry.data.draft && <span class='text-red-500'>(Draft) </span>}
+    <a
+      data-astro-prefetch
+      href={`/blog/${entry.slug}/`}
+      class='transition-all hover:text-muted-foreground hover:underline'
+    >
+      {entry.data.title}
+    </a>
+    {withDesc && (
+      <p class='line-clamp-3 block  italic text-muted-foreground'>
+        {entry.data.title}
+      </p>
+    )}
+  </Tag>
+</li>
+
+
