@@ -1,13 +1,13 @@
 import { defineConfig , envField} from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-import vercel from "@astrojs/vercel/serverless";
 import tailwind from "@astrojs/tailwind";
+import vercel from "@astrojs/vercel/serverless";
 
 export default defineConfig({
-  output: "server",
+  output: "hybrid",
   adapter: vercel(),
-  site: "https://astro-nano-demo.vercel.app",
+  site: "https://oliursahin.com",
   integrations: [mdx(), sitemap(), tailwind()],
   experimental: {
     env: {
@@ -17,3 +17,4 @@ export default defineConfig({
     }
 },
 });
+
