@@ -4,7 +4,7 @@ let error = Astro.url.searchParams.get("error");
 ---
 
 <p class="text-black" >newsletter</p>
-<p style="margin-top: 1rem;" class=" text-neutral-400 font-normal" >Get notified when I publish new posts.</p>
+<p style="margin-top: 1rem; font-size:.9rem;" class=" text-neutral-400 font-normal " >Get notified when I publish new posts.</p>
 
 <form style="margin-top: 1rem;"
   method="POST"
@@ -14,14 +14,13 @@ let error = Astro.url.searchParams.get("error");
     <input
       type="email"
       name="email"
-      placeholder="Email"
+      placeholder="Your email address"
       class="peer h-full w-full border-b border-neutral-200 bg-transparent pt-4 pb-1.5
                      font-sans text-sm font-normal text-black outline outline-0 transition-all
                      placeholder-shown:border-neutral-200 focus:border-neutral-500 focus:outline-0
-                     disabled:border-0 disabled:bg-neutral-50 placeholder:opacity-0
-                     focus:placeholder:opacity-100"
+                     disabled:border-0 disabled:bg-neutral-50 "
     />
-    <label
+    <!-- <label
       class="after:content[''] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full
                      select-none !overflow-visible truncate text-[11px] font-normal leading-tight
                      text-neutral-700 transition-all after:absolute after:-bottom-1.5 after:block
@@ -33,7 +32,7 @@ let error = Astro.url.searchParams.get("error");
                      peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-neutral-500"
     >
       Email
-    </label>
+    </label> -->
   </div>
   <button
     type="submit"
