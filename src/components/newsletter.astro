@@ -4,36 +4,30 @@ let error = Astro.url.searchParams.get("error");
 ---
 
 <p class="text-black" >newsletter</p>
-<p style="margin-top: 1rem; font-size:.9rem;" class=" text-neutral-400 font-normal " >Get notified when I publish new posts.</p>
+<p style="margin-top: 1rem; font-size:.9rem;" class=" text-neutral-400 font-normal " >I also write short emails where I share stories, experiences and my bookmarks.</p>
 
-<form style="margin-top: 1rem;"
-  method="POST"
-  class="font-mono font-medium isolate flex items-center pr-1 mt-1"
->
+<form style="margin-top: 1.5rem; display: flex; align-items: center;" method="POST">
   <div class="relative h-11 min-w-[200px]">
     <input
       type="email"
       name="email"
       placeholder="Your email address"
-      class="peer h-full w-full border-b border-neutral-200 bg-transparent pt-4 pb-1.5
-                     font-sans text-sm font-normal text-black outline outline-0 transition-all
-                     placeholder-shown:border-neutral-200 focus:border-neutral-500 focus:outline-0
-                     disabled:border-0 disabled:bg-neutral-50 "
+      style="border: 1px solid #fffdfd; background: transparent; text-align: left; padding: 0 8px; "
+       class="  h-full w-full font-mono font-medium text-sm  text-neutral-600"
     />
-
   </div>
   <button
     type="submit"
-    class="font-mono font-medium ml-3 mt-3 text-sm  text-neutral-600"
+    style="margin-left: 10px;  text-align: center;"
+    class="font-mono font-medium text-sm  text-neutral-600"
   >
-  subscribe
-
+    Subscribe
   </button>
 </form>
-{
+<!-- {
   registered && (
     <p class="text-sm sm:text-xs font-mono text-black">you've triggered a loop!</p>
   )
 }
-{error && <p class="text-sm sm:text-xs font-mono text-red-500">{error}</p>}
+{error && <p class="text-sm sm:text-xs font-mono text-red-500">{error}</p>} -->
 
