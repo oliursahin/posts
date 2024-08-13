@@ -16,7 +16,7 @@ date: "Oct 09 2023"
 
 6. I’m very conscious about my clothes, if my tailor makes a tiny mistake— I feel uncomfortable with that pair, I win the rest 30% when I put on my fresh shocks, when I fold my pant, when I wear my black analog watch, when I put on my glasses and fix it with my finger ( I use two pair of glasses, if you see me im wearing the black one—  Im in a mood to get shit done that day)
 
-7. I will always keep there hours focus time blocked on my calendar to do the work that I was preparing since last night, when I was taking a walk or drawing something on my dairy or thinking while taking shower — starts after 1.5 hours of waking up and that’s when I take caffeine, a tall iced americano ( if you see me drinking citrus or lemon cold brew— Im having a good time)  and mostly I spend my focus time sitting in a cafe.
+7. I will always keep three hours focus time blocked on my calendar to do the work that I was preparing since last night, when I was taking a walk or drawing something on my dairy or thinking while taking shower — starts after 1.5 hours of waking up and that’s when I take caffeine, a tall iced americano ( if you see me drinking citrus or lemon cold brew— Im having a good time)  and mostly I spend my focus time sitting in a cafe.
 
 8. I avoid foods in the morning, a fruit bowl or eggs— that’s my breakfast before taking caffeine. I mostly eat veggies in week days, like  feeding the purpose only.
 
