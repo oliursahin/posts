@@ -7,6 +7,45 @@ import { SITE, HOME } from "@consts";
 import { SOCIALS } from "@consts";
 import Link from "@components/Link.astro";
 import Newsletter from "../components/newsletter.astro";
+import axios, { AxiosError } from "axios";
+// import { NEWSLETTER_LOOPS_API } from "astro:env/server"
+
+
+if (Astro.request.method === "POST") {
+  const formData = await Astro.request.formData();
+  const email = formData.get("email") as string;
+
+  if (!email) {
+    return Astro.redirect(
+      `/?error=${encodeURIComponent("Please enter an email")}`
+    );
+  }
+const api=NEWSLETTER_LOOPS_API;
+
+  const formBody = `email=${encodeURIComponent(email)}`;
+
+  try {
+    const response = await axios.post(
+     api,
+      formBody,
+      {
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      }
+    );
+    console.log(response.data); 
+  } catch (error) {
+    const e = error as AxiosError;
+    console.error("Error while submitting newsletter form:", e.response?.data);
+    return Astro.redirect(
+      `/?error=${encodeURIComponent("Failed to submit newsletter form")}`
+    );
+  }
+
+  return Astro.redirect("/?registered=true");
+}
+
 
 const blog = (await getCollection("blog"))
   .filter(post => !post.data.draft)
