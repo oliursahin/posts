@@ -4,7 +4,7 @@ let error = Astro.url.searchParams.get("error");
 ---
 
 <p class="text-black">newsletter</p>
-<p style="margin-top: 1rem; font-size:.9rem;" class="text-neutral-400 font-normal">I also write short emails where I share stories, experiences and my bookmarks.</p>
+<p style="margin-top: 1rem;" class="text-gray-500">I also write short emails where I share stories, experiences and my bookmarks.</p>
 
 <form style="margin-top: 1.5rem; display: flex; align-items: center;" method="POST">
   <div class="relative h-11 min-w-[200px]">
@@ -13,13 +13,13 @@ let error = Astro.url.searchParams.get("error");
       name="email"
       placeholder="Your email address"
       style="border: 1px solid #fffdfd; background: transparent; text-align: left; padding: 0 8px; color: black;" 
-      class="h-full w-full font-mono font-medium text-sm text-neutral-400"
+      class="h-full w-full font-mono text-gray-500"
     />
   </div>
   <button
     type="submit"
     style="margin-left: 10px; text-align: center;"
-    class="font-mono font-medium text-sm text-neutral-700"
+    class="font-mono text-black"
   >
     subscribe
   </button>
