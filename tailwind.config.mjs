@@ -12,6 +12,9 @@ export default {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
         mono: ["Inter"],
       },
+      colors: {
+        '525252': '#525252',
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],
