@@ -3,7 +3,7 @@ title: "my productivity set up"
 description: "none"
 date: "Oct 09 2023"
 ---
-
+<span class="text-525252">
 1. I walk on every occasion, it helps me to clear my head or inject something that I need.
 
 2. I use a pencil and an unruled dairy for clear thinking.
@@ -35,3 +35,4 @@ date: "Oct 09 2023"
 16. My pencil and unruled dairy are the most productive tools for me, apart from that I use march, Raycast, Superhuman, [brain.fm](http://brain.fm/).
 
 — the most relatable productivity post on productive written — I found is this: https://blog.samaltman.com/productivity
+</span>
