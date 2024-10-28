@@ -33,7 +33,7 @@
     "tailwind-merge": "^2.5.2",
     "tailwindcss": "^3.4.10",
     "typescript": "^5.4.2",
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/tailwind": "^5.1.2",
     "@astrojs/vercel": "^7.8.1",
     "@logsnag/astro": "^1.0.0-beta.1",
     "@shikijs/transformers": "^1.18.0",
