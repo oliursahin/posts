@@ -3,7 +3,6 @@ title: "opinionated second brain"
 description: "note"
 date: "Dec 20 2024"
 ---
-
 <span class="text-525252">
 to-dos in my system aren't simple tasks like "water the plants" or "write a doc." they take diverse forms: an article a friend shared, a twitter bookmark saved for later, a github issue I was assigned, a pull request i need to review, a linear ticket, or even a slack message. these "objects" are scattered across different tools and places.
 
@@ -33,7 +32,7 @@ a multi-layered calendar:
 
 think like a canvas that has views that stays together or layers (calling them blocks):
 a block that contents filtered/specific set of objects with a view, here is what I would imagine my today would like:
-<img src="https://github.com/user-attachments/assets/e108e544-db23-4f2f-84dd-8ea35c6c044c" alt="Calendar View" style="height: 300px; width: auto;" />
+<img src="https://github.com/user-attachments/assets/e108e544-db23-4f2f-84dd-8ea35c6c044c" alt="IMG_3484" width="400" height="100">
 
 - A markdown editor (a blank space where I can take notes of the day, can be a short journal too)
 - A list view of all the meetings im having.
@@ -42,7 +41,7 @@ a block that contents filtered/specific set of objects with a view, here is what
 - optional: a feed of all the recommended times (can be comment made by my co-worker in a pull request and needs my attention or an article shared by a friend)
 
 Now each object can have a full and expanded view which is customisable and its just two key stroke away to go to an object.
-<img src="https://github.com/user-attachments/assets/1a981254-11e8-449c-8828-6994404ee8c5" alt="Expanded View" style="height: 300px; width: auto;" />
+<img src="https://github.com/user-attachments/assets/1a981254-11e8-449c-8828-6994404ee8c5" alt="IMG_3485" width="400" height="100">
 
 a triage Inbox that is connected to all my tools that I use so that I don't have to manually pick things from the places to put it on my calendar more like a triage box I can triage all the incoming objects.
 all objects: a list view of all the object and I can filter the list by types and source.
@@ -55,9 +54,17 @@ the calendar can be intelligent or agentic enough since we have now the power of
 - it remembers things about me my action items and sends me actionable insights that I need and right on time.
 - or I cant talk to it and get insights such as what's my procrastination score? am I spending more time on meetings? can you block time with elon to travel mars or email him that im using march and you he should too? please write on my voice huh? of course you know my style cause the whole thing I just wrote is an object of an array: friday 20 dec type : note
 
-oliur sahin
+oliur sahin <br>
 co-founder, march (a second brain for people living on mars)
 
 p.s the above is my raw notes on an essay written by <a href="https://x.com/julianlehr/" class="text-525252">Julian Lehr</a>: 
 <a href="https://julian.digital/2023/07/06/multi-layered-calendars/" class="text-525252">Multi-layered calendars: Traveling through time in three dimensions</a> — which i found the most relatable and further gave me clear pictures in my head how to build march.
-</span> 
+</span>
+
+
+
+
+
+
+
+
