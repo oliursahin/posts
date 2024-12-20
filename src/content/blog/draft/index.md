@@ -5,16 +5,13 @@ date: "Dec 20 2024"
 ---
 
 <span class="text-525252">to-dos in my system aren’t simple tasks like “water the plants” or “write a doc.” they take diverse forms: an article a friend shared, a twitter bookmark saved for later, a github issue I was assigned, a pull request i need to review, a linear ticket, or even a slack message. these "objects" are scattered across different tools and places.
-
 here’s what my current stack and workflow looks like:
 - email: I treat my inbox as a primary todo list, I constantly email myself in the future for ideas or todos that I want to work on.
 - calendar: I set recurring focus time on the on calendar and try to log as much as  objects i can.
 - late-night thoughts : stored in apple notes.
 - work-related items: linear tickets and pull requests manually tracked across tools and added to my action plan in calendar or in raycast notes.
 - content consumption: twitter bookmarks, articles are mostly saved in safari's reading list.
-
-
-
+  
 see whats happening here, I'm putting all the objects in different silos and as a result here are few examples of  what happens unless I've taken a oath to be super productive:
 - the safari items are always cluttered unless occasionally put them in my calendar.
 - i never clear the notion template where I saved a lot of stuff through browser.
@@ -68,7 +65,7 @@ co-founder, march ( a second brain for people living on mars)
 
 
 p.s the above is my raw notes on an essay written by Julian Lehr: 
-Multi-layered calendars: Traveling through time in three dimensions — which i found the most relatable and further gave me clear pictures in my head how to build march. </span>
+Multi-layered calendars: Traveling through time in three dimensions — which i found the most relatable and further gave me clear pictures in my head how to build march.</span>
 
 
 
