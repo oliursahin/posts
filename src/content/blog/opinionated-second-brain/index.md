@@ -32,7 +32,14 @@ a multi-layered calendar:
 
 think like a canvas that has views that stays together or layers (calling them blocks):
 a block that contents filtered/specific set of objects with a view, here is what I would imagine my today would like:
-<img src="https://github.com/user-attachments/assets/e108e544-db23-4f2f-84dd-8ea35c6c044c" alt="IMG_3484" width="400" height="100">
+<img 
+  src="https://github.com/user-attachments/assets/e108e544-db23-4f2f-84dd-8ea35c6c044c" 
+  alt="IMG_3484" 
+  width="400" 
+  height="100" 
+  loading="lazy"
+  decoding="async"
+/>
 
 - A markdown editor (a blank space where I can take notes of the day, can be a short journal too)
 - A list view of all the meetings im having.
@@ -41,7 +48,14 @@ a block that contents filtered/specific set of objects with a view, here is what
 - optional: a feed of all the recommended times (can be comment made by my co-worker in a pull request and needs my attention or an article shared by a friend)
 
 Now each object can have a full and expanded view which is customisable and its just two key stroke away to go to an object.
-<img src="https://github.com/user-attachments/assets/1a981254-11e8-449c-8828-6994404ee8c5" alt="IMG_3485" width="400" height="100">
+<img 
+  src="https://github.com/user-attachments/assets/1a981254-11e8-449c-8828-6994404ee8c5" 
+  alt="IMG_3485" 
+  width="400" 
+  height="100" 
+  loading="lazy"
+  decoding="async"
+/>
 
 a triage Inbox that is connected to all my tools that I use so that I don't have to manually pick things from the places to put it on my calendar more like a triage box I can triage all the incoming objects.
 all objects: a list view of all the object and I can filter the list by types and source.
