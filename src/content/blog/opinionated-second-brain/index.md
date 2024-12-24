@@ -69,7 +69,7 @@ the calendar can be intelligent or agentic enough since we have now the power of
 - or I cant talk to it and get insights such as what's my procrastination score? am I spending more time on meetings? can you block time with elon to travel mars or email him that im using march and you he should too? please write on my voice huh? of course you know my style cause the whole thing I just wrote is an object of an array: friday 20 dec type : note
 
 oliur sahin <br>
-co-founder, march (a second brain for people living on mars)
+co-founder, march (a calendar for people living on mars)
 
 p.s the above is my raw notes on an essay written by <a href="https://x.com/julianlehr/" class="text-525252">Julian Lehr</a>: 
 <a href="https://julian.digital/2023/07/06/multi-layered-calendars/" class="text-525252">Multi-layered calendars: Traveling through time in three dimensions</a> — which i found the most relatable and further gave me clear pictures in my head how to build march.
